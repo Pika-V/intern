@@ -1,10 +1,6 @@
 # ZX AI Framework - Python Implementation
 
-A Python + Langchain implementation of the original Go + Eino framework for AI-powered data querying and analysis across multiple data sources.
-
-## Overview
-
-This project has been refactored from Go + Eino to Python + Langchain, providing the same functionality with improved maintainability and access to Python's rich AI ecosystem.
+A Python + Langchain implementation framework for AI-powered data querying and analysis across multiple data sources.
 
 ## Architecture
 
@@ -357,18 +353,6 @@ CMD ["python", "main.py"]
 4. **Security**: Enable HTTPS, authentication, and authorization
 5. **Monitoring**: Set up health checks and monitoring
 
-## Migration from Go to Python
-
-### Key Changes
-
-1. **Language**: Go → Python
-2. **AI Framework**: Eino → Langchain
-3. **Web Framework**: Gin → FastAPI
-4. **Database**: Native Go drivers → aiomysql, elasticsearch-py
-5. **Configuration**: Viper → Pydantic Settings
-6. **Logging**: Custom → Loguru
-7. **Code Generation**: Go templates → Jinja2
-
 ### Benefits of Python Implementation
 
 - **Easier Maintenance**: Python's simplicity and readability
@@ -435,4 +419,5 @@ For issues and questions:
 - Check the troubleshooting section
 - Review the test examples
 - Examine the Go implementation for reference behavior
+
 - Contact the development team
